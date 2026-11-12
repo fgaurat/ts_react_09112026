@@ -1,0 +1,24 @@
+{
+  "name": "ch01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgaurat/ts_react_09112026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fgaurat/ts_react_09112026/issues"
+  },
+  "homepage": "https://github.com/fgaurat/ts_react_09112026#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}

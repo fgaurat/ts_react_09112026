@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      function changeTitre1() {
+        console.log("changeTitre1");
+        const t1 = document.getElementById("letitre1");
+        t1.innerHTML = "Un autre titre";
+        console.dir(t1);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="changeTitre1()">Change Titre 1</button>
+    <h1 id="letitre1">Titre 1</h1>
+    <h2>Titre 2</h2>
+    <h3>Titre 3</h3>
+
+    <ul>
+      <li>Item 1</li>
+    </ul>
+
+    <div>
+      Lorem ipsum dolor <strong> amet consectetur</strong> adipisicing elit.
+      Labore nemo sint eligendi eius quo veniam ea suscipit, ducimus asperiores
+      officia <span>repellat quibusdam</span> maxime rerum, excepturi optio
+      aperiam qui facere sunt?
+    </div>
+    
+    <CustomerTable/>
+
+
+    
+  </body>
+</html>

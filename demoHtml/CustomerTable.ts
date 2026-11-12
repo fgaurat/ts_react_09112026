@@ -1,0 +1,14 @@
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>MARTIN</td>
+        </tr>
+      </tbody>
+    </table>
